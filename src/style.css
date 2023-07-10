@@ -1,1 +1,19 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+	background-color:lightslategray;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold; 
+	margin: 100px;
+}
+
+p{
+	display: inline;
+}
+
+.excuse-box{
+	border: 7px solid;
+	border-radius: 10px;
+	padding: 35px;
+	background-color: rgb(41, 190, 49);
+}
