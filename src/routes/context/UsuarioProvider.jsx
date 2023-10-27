@@ -4,7 +4,7 @@ import { UsuarioContext } from "./UsuarioContext";
 const usuario = {
     nombre: 'pepe',
     tecnologia: 'react',
-    mail: 'pepe@gmail.com',
+    email: 'pepe@gmail.com',
     redes: '@pepe'
 }
 
