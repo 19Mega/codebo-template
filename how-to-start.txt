@@ -1,8 +1,0 @@
-- npm create vite 
-Elegimos nombre-proyecto y ponemos React > JavaScript + SWC
-
-- cd nombre-proyecto
-- npm install && npm run dev
-
-https://reactrouter.com/en/main/start/tutorial
-- npm install react-router-dom

@@ -1,10 +1,10 @@
 import { useContext } from "react"
-import { UsuarioContext } from "../context/UsuarioContext"
+import { UserContext } from "../context/UserContext"
 
 export const HomeScreen = () =>  {
 
-  // El UsuarioContext nos provee de la info de usuario
-  const {usuario} = useContext(UsuarioContext)
+  // El UserContext nos provee de la info de usuario
+  const {usuario} = useContext(UserContext)
 
     return (
       <>

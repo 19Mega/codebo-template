@@ -1,20 +1,77 @@
-# React + Vite
+## HOW TO START BACKEND ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run your Flask project, ensure that your virtual environment is activated. If you haven't created a virtual environment yet, you can do so using the following command (make sure you are in the main folder of your project):
 
-Currently, two official plugins are available:
+```bash
+# Get in back-end folder:  
+cd back-end  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Create a new virtual enviroment (only once):  
+python -m venv venv  
+
+# Next, activate the virtual environment:    
+source venv/Scripts/activate  
+
+# Install requirements (only once):  
+pip install -r requirements.txt  
+
+# Run server:
+python wsgi.py  
+```
+
+## DATABASE ✨
+```
+Inside the "app" directory, a folder named "instance/" will be created where the database will be located.
+```
+
+## HOW TO START FRONTEND ✨
+```bash
+# Get in front-end folder:
+cd front-end  
+
+# Install packages (only once):
+npm install  
+
+# Copy the env.example file to get enviroments variables (only once): 
+cp .env.example .env
+
+# Run server: 
+npm run dev  
+```
 
 
-## How to start
+<hr>
+<br></br>
 
-- npm create vite 
-Elegimos nombre-proyecto y ponemos React > JavaScript + SWC
+## **HOW TO GET THIS REPOSITORY LOCAL**
+Initialize the folder as a Git repository:
+```bash
+# Initializate git in an empty folder:
+git init
 
-- cd nombre-proyecto
-- npm install && npm run dev
+# Add a remote repository:
+git remote add origin https://github.com/CodeBo-CDB/proyecto-1
 
-https://reactrouter.com/en/main/start/tutorial
-- npm install react-router-dom
+# Rename the current branch to "main":
+git branch -m "main"
+
+# Pull changes from the "main" branch:
+git pull origin main
+```
+
+## BRANCH MANAGMENT
+
+
+```bash
+# Create a new branch "ft-new-branch":
+$ git checkout -b "ft-new-branch"
+
+
+# Switch to a different branch "ft-switch-branch":
+$ git checkout ft-switch-branch
+
+
+# List available branches:
+$ git branch
+```
+
