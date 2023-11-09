@@ -1,41 +1,44 @@
 ## HOW TO START BACKEND ✨
 
-To run your Flask project, ensure that your virtual environment is activated. If you haven't created a virtual environment yet, you can do so using the following command (make sure you are in the main folder of your project):
+To run your Flask project, ensure that your virtual environment is activated. If you haven't created a virtual environment yet, you can do so using the following command (make sure you are in the main folder of your project):  
 
 ```bash
 # Get in back-end folder:  
 cd back-end  
 
+# Copy the env.example file to get enviroments variables (only once):  
+cp .env.back-example .env  
+
 # Create a new virtual enviroment (only once):  
 python -m venv venv  
 
-# Next, activate the virtual environment:    
+# Next, activate the virtual environment:  
 source venv/Scripts/activate  
 
 # Install requirements (only once):  
 pip install -r requirements.txt  
 
-# Run server:
-python wsgi.py  
+# Run server:  
+python app.py  
 ```
 
 ## DATABASE ✨
 ```
-Inside the "app" directory, a folder named "instance/" will be created where the database will be located.
+Inside the "app" directory, a folder named "instance/" will be created where the database will be located.  
 ```
 
 ## HOW TO START FRONTEND ✨
 ```bash
-# Get in front-end folder:
+# Get in front-end folder:  
 cd front-end  
 
-# Install packages (only once):
+# Install packages (only once):  
 npm install  
 
-# Copy the env.example file to get enviroments variables (only once): 
-cp .env.example .env
+# Copy the env.example file to get enviroments variables (only once):  
+cp .env.front-example .env  
 
-# Run server: 
+# Run server:  
 npm run dev  
 ```
 
@@ -44,34 +47,31 @@ npm run dev
 <br></br>
 
 ## **HOW TO GET THIS REPOSITORY LOCAL**
-Initialize the folder as a Git repository:
+Initialize the folder as a Git repository:  
 ```bash
-# Initializate git in an empty folder:
-git init
+# Initializate git in an empty folder:  
+git init  
 
-# Add a remote repository:
-git remote add origin https://github.com/CodeBo-CDB/proyecto-1
+# Add a remote repository:  
+git remote add origin https://github.com/19Mega/codebo-template  
 
-# Rename the current branch to "main":
-git branch -m "main"
+# Rename the current branch to "main":  
+git branch -m "main"  
 
-# Pull changes from the "main" branch:
-git pull origin main
+# Pull changes from the "main" branch:  
+git pull origin main  
 ```
 
 ## BRANCH MANAGMENT
 
-
 ```bash
-# Create a new branch "ft-new-branch":
-$ git checkout -b "ft-new-branch"
+# Create a new branch "ft-new-branch":  
+$ git checkout -b "ft-new-branch"  
 
+# Switch to a different branch "ft-switch-branch":  
+$ git checkout ft-switch-branch  
 
-# Switch to a different branch "ft-switch-branch":
-$ git checkout ft-switch-branch
-
-
-# List available branches:
-$ git branch
+# List available branches:  
+$ git branch  
 ```
 

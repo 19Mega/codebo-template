@@ -7,6 +7,8 @@ export const ContactScreen = () =>  {
     const { endpoint } = useContext(EndpointContext);
     const { store, actions } = endpoint;
 
+
+    
     //actions.exampleFunction();
 
     useEffect(()=>{
